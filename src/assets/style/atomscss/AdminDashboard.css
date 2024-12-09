@@ -1,0 +1,48 @@
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.chart-container>div {
+    margin-bottom: 1rem;
+    width: 100%;
+background: #F8F8F8;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.chart-container>div canvas {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .chart-container>div {
+        width: 30%;
+    }
+
+    .left40 {
+        width: 80%;
+        height: 50%;
+    }
+
+    .center30 {
+        width: 30%;
+    }
+
+    .rigth30 {
+        width: 30%;
+        height: 50%;
+    }
+
+    .chart-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .chart-container>div {
+        margin-bottom: 0;
+    }
+}

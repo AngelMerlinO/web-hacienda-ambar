@@ -1,0 +1,12 @@
+.spanCard{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    font-family: 'Quattrocento', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #4D0A0B;
+}

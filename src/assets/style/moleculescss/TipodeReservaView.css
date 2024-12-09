@@ -1,0 +1,284 @@
+.tituloTypeReserva1{
+  justify-content: center;
+  display: flex;
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 55px;
+  width: 100%;
+  text-align: center;
+  color: #4B4B4C;
+}
+.lineaTypeRents{
+
+  width: 100%;
+  height: 0px;
+  
+  border: 2px dashed #6F0000;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.subTituloImg{
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  text-align: center;
+  color: #910000;
+}
+.subTituloImg2{
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 400;
+  font-size:1.5rem;
+  line-height: 40px;
+  color: #000000;
+}
+
+/* set full width for FContaineMain and adjust height automatically */
+.FContaineMain {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* set full width for CContainerMain and adjust height automatically */
+  .CContainerMain {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  /* set left section to take up 50% of the width and align to the left */
+  .left {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+  }
+  .tituloTipoRenta{
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #9C2727;
+  }
+  .tituloTiposDeRenta{
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #9C2727;
+    margin: 6%;
+  }
+  .informacionTipoRenta{
+    text-align: justify;
+  }
+  .left p {
+    font-size: 1.9rem; /* adjust the value to your liking */
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.8);
+  } 
+  
+  /* set right section to take up 50% of the width and align to the right */
+  .rightIMG {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+  }
+  .contenedorPadreForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    margin-top: 15%;
+    margin-left: 5%;
+    background: rgba(75, 75, 76, 0.06);
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .labelTypeReserva{
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #910000;
+  }
+  .botonTypeReserva{
+    height: 4vh;
+    width: 25vw;
+    background: #373737;
+    color: #ffffff;
+    border-radius: 15px;
+  }
+  .padreBotonTypeReserva{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  /* adjust image width to fit the right div */
+  .rightIMG img {
+ 
+    width: 60%;
+    height: auto;
+  }
+  
+  /* add some padding and margin for better layout */
+  .left, .rightIMG {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .botonTipoDeRentas{
+    background-color: #9C2727;
+    color: white;
+    width: 40%;
+    height: 20%;
+    border: none;  
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+  }
+  .botonTipoDeRentas:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+    -webkit-transform: scale3d(1.5, 1.5, 0.3);
+    -moz-transform: scale3d(1.5, 1.5, 0.3);
+  }
+  
+  /* add some style to the button */
+  .ejemplobutton {
+    background-color: #9C2727;
+    color: white;
+    width: 100%;
+    height: 10%;
+    padding-left: 10%;
+    border: none;
+    padding: 10px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+  }
+
+   
+  
+  /* adjust layout for smaller screens */
+  @media (max-width: 768px) {
+    .left, .rightIMG {
+      width: 100%;
+      float: none;
+    }
+  }
+  
+  /* flip the order of left and right sections in the second CContainerMain */
+  .CContainerMain:nth-of-type(2) .left {
+    order: 2;
+  }
+  
+  .CContainerMain:nth-of-type(2) .rightIMG {
+    order: 1;
+  }
+
+  .TipoReservaView1Card{
+    max-width: 100%;
+  }
+  
+/* .ajustesImg{
+  width: 50%;
+  height: 50%;
+} */
+
+.centradoBtnRegresar{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.tipReervaView{
+  margin-top: 40px;
+}
+.tipReervaView2{
+  font-size: 2.8rem;
+  margin-bottom: 41px;
+  padding-bottom: 50px;
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #9C2727;
+  margin-top: 7%;
+}
+.tipReervaView3{
+  margin-top: 108px
+}
+.tipReervaView4{
+  font-size: 2.5rem;
+  text-align: justify;
+  margin-bottom: 59px;
+  width: 70%;
+  margin-top: 5%;
+}
+.tipReervaView5{
+  margin-top: 80px;
+}
+.tipReervaView6{
+  font-size: 2.8rem;
+  margin-bottom: 41px;
+  padding-bottom: 50px;
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #9C2727;
+  margin-top: 7%;
+}
+.tipReervaView7{
+  margin-top: 108px;
+}
+.tipReervaView8{
+  font-size: 2.5rem;
+  text-align: justify;
+  margin-bottom: 59px;
+  width: 70%;
+  margin-top: 7%;
+}
+.tipReervaView9{
+  margin-top: 80px;
+}
+.tipReervaView10{
+  font-size: 2.8rem;
+  margin-bottom: 41px;
+  padding-bottom: 50px;
+}
+.tipReervaView11{
+  margin-top: 108px;
+}
+.tipReervaView12{
+  font-size: 2.5rem;
+  text-align: justify;
+  margin-bottom: 59px;
+}
+.clasePadreContainerTDRV{
+  margin-bottom: 60px;
+}

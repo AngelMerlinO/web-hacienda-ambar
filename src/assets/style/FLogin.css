@@ -1,0 +1,260 @@
+.padreImgLogin{
+    display: flex;
+    justify-content: space-between;
+}
+.LogosGeneric{
+    width: 50vw;
+    height: 100%;
+    float: right;
+    max-width: auto;
+}
+.icnoRedesLogin{
+   display: flex;
+   justify-content: center;
+}
+.ordenamiento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5%;
+    align-items: center;
+    background: rgba(75, 75, 76, 0.06);
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.linksForms{
+    font-family: 'Quattrocento', serif;
+    font-style: normal;
+    font-weight: 350;
+    padding: 5%;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #2a2828;
+}
+.sombra{
+    background: rgba(75, 75, 76, 0.06);
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.sombrita{
+    background: rgba(75, 75, 76, 0.06);
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 80%;
+    height: 96%;
+
+}
+.padreLinks{
+    display: flex;   
+   flex-direction: column;
+   align-items: center;
+}
+
+label{
+    font-family: 'Quattrocento', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.labelTitulo{
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #000000;
+}
+input{
+    background: #D9D9D9;
+    border-radius: 10px;
+    width: 25vw;
+    height: 57px;
+    left: 148px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.botonFlogin{
+    width: 25vw;
+    height: 40px;
+    background: #C51515;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-family: 'Quattrocento';
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+      7px 7px 20px 0px rgba(0,0,0,.1),
+      4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    
+   }
+   .botonFlogin:before {
+    height: 0%;
+    width: 2px;
+   }
+   
+   
+   .botonFlogin:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+                 -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+       inset -4px -4px 6px 0 rgba(255,255,255,.2),
+       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+   }
+.clasesRedes{
+    margin-top: 5%;
+}
+.contenedorFormulario{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    width: 50vw;
+    margin: 1rem;
+}
+
+.contenedorFormulario form{
+    width: 80%;
+}
+
+.contenedorFormulario label{
+    margin-top: 1rem;
+}
+.formLoginG{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.buttonLogin{
+    font-weight: bold;
+    border: none;
+    margin-top: 3vw;
+}
+.inputsLogin{
+    border: none;
+}
+.fondoDegradadoCard{
+    background: rgba(75, 75, 76, 0.06);
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.fomrCardLogin{
+    width: 50%;
+    height: 50%;
+}
+.linkFormLogin{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.card-body{
+    width: 100%;
+}
+.cardcitaLogin{
+    width: 40%;
+    height: 20%;
+    background: rgba(75, 75, 76, 0.06);
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.cardcitaLogin2{
+    width: 40%;
+    height: 20%;
+    background: rgba(75, 75, 76, 0.06);
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+
+:root {
+    --color-dark: #15181f;
+    --color-dark-x: #2d343f;
+    --color-dark-xx: #1f232b;
+    --color-light: #ffffff;
+    --color-grey: #f5f6f8;
+}
+.contenedorLogincito{
+    font-family: 'Quattrocento', serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-grey);
+    color: var(--color-light);
+    letter-spacing: .05rem;
+    
+}
+
+.bg-light {
+    background-color: var(--color-light)!important;
+}
+
+
+
+.p-6 {
+    padding: 4rem 7rem;
+}
+
+.contact-box {
+    padding: 0;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    min-width: 10rem;
+}
+
+.btn-outline-dark {
+    border: 2px solid var(--color-dark-xx);
+}
+
+
+.form-control {
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    padding: 1.5rem 1rem;
+}
+
+.login-bg {
+    background-image: url('../img/imgLogin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.testiomonial {
+    bottom: 10px
+}
+
+@media (max-width: 575.98px) {
+    .p-6 {
+        padding: 2rem;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .register-bg {
+        min-height: 50vh;
+    }
+}

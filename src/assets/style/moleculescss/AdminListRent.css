@@ -1,0 +1,98 @@
+.ContainerListRent {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  .table_container {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    font-size: .7rem;
+    text-align: left;
+  }
+  
+  .table_container th,
+  .table_container td {
+    border: 3px solid #000000;
+    padding: 3px;
+  }
+  
+  .table_container th {
+    background-color: #ff0000;
+    color: #333;
+  }
+  
+  .table_container tr:hover {
+    background-color: #f5f5f5;
+  }
+  .cont-vermas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .marginButtom{
+    margin-bottom: 6%;
+  }
+  
+  .table-vermas {
+    max-width: 100%;
+    width: 100%;
+  }
+  table th {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
+  }
+  
+  table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+ 
+  
+  @media screen and (min-width:768px) and (max-width:1023px) {
+    .table_container {
+      font-size: 1rem;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1399px){
+  .table_container {
+    font-size: 1.2rem;
+  }
+}
+.botonFlogin{
+  width: 24vw;
+  height: 40px;
+  background: #C51515;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 10px 25px;
+  font-family: 'Quattrocento';
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.botonFlogin:before {
+  height: 0%;
+  width: 2px;
+}
+ 
+ .botonFlogin:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+     inset -4px -4px 6px 0 rgba(255,255,255,.2),
+     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+ }
+ .acomodacionTabla{
+  margin-bottom: 5%;
+ }

@@ -1,0 +1,27 @@
+.logoNavbar{
+  width: 96px;
+  height: 75px;
+}
+.anclas{
+  justify-content: center;
+}
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active{  
+  display: block;
+  font-family: "Quattrocento";
+  font-size: 15px;
+  font-weight: 700;
+  color: #010101;
+}
+.btnIniciarsesion{
+  color: #C51515;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
+.borderNavbarcito{
+  border-color: rgb(191, 36, 36) 1rem;
+  color: #b62020;
+}
